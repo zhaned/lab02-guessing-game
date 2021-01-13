@@ -120,3 +120,7 @@ footer {
     }
 
   }
+
+  .button-restart{
+      display: none;
+  }
