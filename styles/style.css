@@ -28,12 +28,15 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    padding-top: 20px;
+    background-image: url(../assets/Background.png);
 }
 
 section {
-    background-color: var(--color5);
-    width: 1000px;
+    background-color: #e0e0e0;
+    width: 300px;
     max-width: 80%;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +45,7 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    border: solid 2px black;
 }
 
 header {
@@ -116,4 +119,8 @@ footer {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
 
+  }
+
+  .button-restart{
+      display: none;
   }
