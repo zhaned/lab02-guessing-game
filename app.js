@@ -17,11 +17,10 @@ guessButton.addEventListener('click', () =>{
     if (guessesLeft === 0 || compareNumbers(inputNumber, realNumber) === 0){
         guessButton.style.display = 'none';
         if (compareNumbers(inputNumber, realNumber) === 0){
-            guessHint.textContent = 'You guessed correct!!';
+            guessHint.textContent = 'You guessed correct!! Thanks for playing!';
         }
         else {
             guessHint.textContent = 'Out of guesses! Thanks for playing!';
         }
     }
-    console.log(realNumber);
 });
